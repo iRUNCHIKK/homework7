@@ -8,11 +8,10 @@ public class Main {
         int result = 2459000;
         while (total <= result){
             total = total + salary;
-            total = total + total/100;
             month++;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + total + " рублей");
         }
-        System.out.println(month);
+        System.out.println("Потребуется " + month + " месяца");
 
         //task2
         System.out.println("Task2");
@@ -62,6 +61,7 @@ public class Main {
                 System.out.println("Месяц " + monthNumber1 + ", сумма накоплений - " + money1 + " рублей");
             }
         }
+        System.out.println("Василию понадобится " + monthNumber1 + " месяцев");
 
         //task6
         System.out.println("Task6");
